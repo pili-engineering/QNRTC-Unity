@@ -1,0 +1,165 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+#include <limits>
+
+
+
+// System.Void
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
+
+struct QNCustomMessagePInvoke_tBC6746EFC56F1CB5A05BBB094A49B5401315205C_marshaled_pinvoke;
+struct QNLiveStreamingErrorInfoPInvoke_tF642E3C82AAC4C9B195D232B22DC6693237B2E8D_marshaled_pinvoke;
+struct QNMediaRelayResultListPInvoke_t003EEB059B692D7AC9F6F9E8A48ABDDBE337EA7D_marshaled_pinvoke;
+struct QNRemoteTrackListPInvoke_tB1DFC31DD217930353D6C21406ECB5C1D3CB92AF_marshaled_pinvoke;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Object
+
+
+// System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
+{
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+public:
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
+	inline void* get_m_value_0() const { return ___m_value_0; }
+	inline void** get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(void* value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct IntPtr_t_StaticFields
+{
+public:
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+
+public:
+	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
+	inline intptr_t get_Zero_1() const { return ___Zero_1; }
+	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
+	inline void set_Zero_1(intptr_t value)
+	{
+		___Zero_1 = value;
+	}
+};
+
+
+// System.Void
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0(intptr_t ___arg0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNLocalAudioTrackImpl_OnAudioFrame_m3A7C6AC86448C77ABFE3B170E70550D66B0D84C0(char* ___userId0, char* ___trackId1, intptr_t ___dataPtr2, uint32_t ___dataSize3, uint32_t ___bitsPerSample4, uint32_t ___sampleRate5, uint32_t ___channels6);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnClientRoleError_m54B28B1549493A40CC5DBC643221410CA69BD671(int32_t ___errorCode0, char* ___errorMessage1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnClientRoleResult_m2478D8C937BCF77A0F484F5C2A9435FFA9EA7B28(int32_t ___newRole0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnConnectionStateChanged_mD6FF77C638DFD6503CC2A131A2164B234AF5F5D9(int32_t ___state0, intptr_t ___infoPtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnLiveStreamingOnError_m9959D88ADB202CD43E3406B5F472B4DB2D50EC7F(char* ___streamId0, QNLiveStreamingErrorInfoPInvoke_tF642E3C82AAC4C9B195D232B22DC6693237B2E8D_marshaled_pinvoke* ___info_p_invoke1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnLiveStreamingStarted_m3523AE0D3AE96E07F900CA7DFFC5461189C9733F(char* ___streamId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnLiveStreamingStopped_m19C0EC96708061A36C15BE98A1771CE6D7B018E2(char* ___streamId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnLiveStreamingTranscodingTracksUpdated_m1FC3D7F6EDE345869EC0751094BF407BA1F46CE1(char* ___streamId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnMediaRelayError_m4469B9007782F94B00B463E0C1F62049666C0D59(int32_t ___errorCode0, char* ___errorMessage1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnMediaRelayResult_m60ECF460E1B7133F1BBA23A3A9D78237B5649A2B(QNMediaRelayResultListPInvoke_t003EEB059B692D7AC9F6F9E8A48ABDDBE337EA7D_marshaled_pinvoke* ___resultListPInvoke0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnMediaRelayStateChanged_m80D4C64207C288A1ADAA66F06E04A87468E84280(char* ___relayRoom0, int32_t ___state1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnMessageReceived_m67347B4EE34CECEEEDCCAB8D2FCDA282EB1CB4C6(QNCustomMessagePInvoke_tBC6746EFC56F1CB5A05BBB094A49B5401315205C_marshaled_pinvoke* ___messagePInvoke0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnNetworkQualityNotified_m11497E8AC9E29E98C492BC6772583AC37B9E64EB(intptr_t ___qualityPtr0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnPublishError_mC56B24EE45E0685D2B2163D99B0FC22EC3F3C40C(int32_t ___errorCode0, char* ___errorMessage1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnPublished_m161E0A4347BF61485A6525C8673CCA4163CD659F();
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnRemoteAudioMixedFrame_m54E695D9E910226461F0D0C6A73506B1125CB2D1(intptr_t ___dataPtr0, uint32_t ___dataSize1, uint32_t ___bitsPerSample2, uint32_t ___sampleRate3, uint32_t ___channels4);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnSubscribed_mFBC21A6F1CF0DF0DC3CB9E9D91E6AEB6DB2289DF(char* ___remoteUserId0, QNRemoteTrackListPInvoke_tB1DFC31DD217930353D6C21406ECB5C1D3CB92AF_marshaled_pinvoke* ___remoteAudioTrackListPInvoke1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnUserJoined_m25D5C16396515400F5B12046662D900ADEF7DC6F(char* ___remoteUserId0, char* ___userData1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnUserLeft_mAD84756F8E7C93B6853647DFF29DE1759BDEA912(char* ___remoteUserId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnUserPublished_m7363E1853A8EC280BCC8042302C7E1197F9513AD(char* ___remoteUserId0, QNRemoteTrackListPInvoke_tB1DFC31DD217930353D6C21406ECB5C1D3CB92AF_marshaled_pinvoke* ___remoteTrackListPInvoke1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnUserReconnected_m2769F9B6003FE35011BE921D25F0B79AF03DC57E(char* ___remoteUserId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnUserReconnecting_m0054AEA1BEEF5EA0BB7E6CBAD9ED4F5D55442F67(char* ___remoteUserId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCClientImpl_OnUserUnpublished_m37A0CC5337DB85741C83E77A2D4375CF893A503B(char* ___remoteUserId0, QNRemoteTrackListPInvoke_tB1DFC31DD217930353D6C21406ECB5C1D3CB92AF_marshaled_pinvoke* ___remoteTrackListPInvoke1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRTCImpl_OnAudioRouteChanged_m1CC8FE303DFA48F24C52E0B301E13CD9A66D9D75(int32_t ___device0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRemoteAudioTrackImpl_OnAudioFrame_mA5124089025D4325A8EE70C6766B559C9AB087F7(char* ___userId0, char* ___trackId1, intptr_t ___dataPtr2, uint32_t ___dataSize3, uint32_t ___bitsPerSample4, uint32_t ___sampleRate5, uint32_t ___channels6);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_QNRemoteTrackImpl_OnMuteStateChanged_mBB309F6F33A6F4193FA64DF6237758836B539858(char* ___userId0, char* ___trackId1, int32_t ___muted2);
+
+
+IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[27] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNLocalAudioTrackImpl_OnAudioFrame_m3A7C6AC86448C77ABFE3B170E70550D66B0D84C0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnClientRoleError_m54B28B1549493A40CC5DBC643221410CA69BD671),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnClientRoleResult_m2478D8C937BCF77A0F484F5C2A9435FFA9EA7B28),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnConnectionStateChanged_mD6FF77C638DFD6503CC2A131A2164B234AF5F5D9),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnLiveStreamingOnError_m9959D88ADB202CD43E3406B5F472B4DB2D50EC7F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnLiveStreamingStarted_m3523AE0D3AE96E07F900CA7DFFC5461189C9733F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnLiveStreamingStopped_m19C0EC96708061A36C15BE98A1771CE6D7B018E2),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnLiveStreamingTranscodingTracksUpdated_m1FC3D7F6EDE345869EC0751094BF407BA1F46CE1),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnMediaRelayError_m4469B9007782F94B00B463E0C1F62049666C0D59),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnMediaRelayResult_m60ECF460E1B7133F1BBA23A3A9D78237B5649A2B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnMediaRelayStateChanged_m80D4C64207C288A1ADAA66F06E04A87468E84280),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnMessageReceived_m67347B4EE34CECEEEDCCAB8D2FCDA282EB1CB4C6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnNetworkQualityNotified_m11497E8AC9E29E98C492BC6772583AC37B9E64EB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnPublishError_mC56B24EE45E0685D2B2163D99B0FC22EC3F3C40C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnPublished_m161E0A4347BF61485A6525C8673CCA4163CD659F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnRemoteAudioMixedFrame_m54E695D9E910226461F0D0C6A73506B1125CB2D1),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnSubscribed_mFBC21A6F1CF0DF0DC3CB9E9D91E6AEB6DB2289DF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnUserJoined_m25D5C16396515400F5B12046662D900ADEF7DC6F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnUserLeft_mAD84756F8E7C93B6853647DFF29DE1759BDEA912),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnUserPublished_m7363E1853A8EC280BCC8042302C7E1197F9513AD),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnUserReconnected_m2769F9B6003FE35011BE921D25F0B79AF03DC57E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnUserReconnecting_m0054AEA1BEEF5EA0BB7E6CBAD9ED4F5D55442F67),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCClientImpl_OnUserUnpublished_m37A0CC5337DB85741C83E77A2D4375CF893A503B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRTCImpl_OnAudioRouteChanged_m1CC8FE303DFA48F24C52E0B301E13CD9A66D9D75),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRemoteAudioTrackImpl_OnAudioFrame_mA5124089025D4325A8EE70C6766B559C9AB087F7),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_QNRemoteTrackImpl_OnMuteStateChanged_mBB309F6F33A6F4193FA64DF6237758836B539858),
+};

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 46be1bc3a5e444b3d91641330a96bcb3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tableView: {instanceID: 0}
+  - contentView: {instanceID: 0}
+  - tableViewCell: {fileID: 638243476409886562, guid: fe20f727dba80460fa286a44befe090a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
